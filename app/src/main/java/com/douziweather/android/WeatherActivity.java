@@ -195,6 +195,7 @@ public class WeatherActivity extends AppCompatActivity {
      * 处理显示Weather实体类中显示的数据
      */
     private void showWeatherInfo(Weather weather) {
+
         String cityName = weather.basic.cityName;
         String updateTime = weather.basic.update.updateTime.split(" ")[1];
         String degree = weather.now.temperture + "℃";
